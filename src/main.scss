@@ -1,0 +1,75 @@
+// @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+// html,body {
+//   font-family: 'Encode Sans Expanded', sans-serif; 
+//   height: 100%;
+//   width: 200vh;
+//   margin: 0;
+// }
+p {
+  margin-bottom: 1rem;
+}
+.counter {
+  padding: 10px;
+  
+  .counter-controls {
+    display: inline-block;
+    margin-left: 10px;
+    
+    button {
+      margin-right: 4px;
+    }
+  }
+}
+
+ol.instructions {
+  list-style-type: decimal;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  
+  li {
+    margin-bottom: 1rem;
+    
+    ol {
+      margin-top: .5rem;
+      margin-left: 2.5rem;
+      list-style-type: decimal;
+    }
+  }
+}
+
+.counter {
+  padding: 10px;
+  .counter-controls {
+    display: inline-block;
+    margin-left: 10px;
+    .button {
+      margin-right: 4px;
+      background-color: white;
+border-color: #dbdbdb;
+border-width: 1px;
+color: #363636;
+cursor: pointer;
+justify-content: center;
+padding-bottom: calc(0.5em - 1px);
+padding-left: 1em;
+padding-right: 1em;
+padding-top: calc(0.5em - 1px);
+text-align: center;
+white-space: nowrap;
+&.is-danger {
+  background-color: #f14668;
+  border-color: transparent;
+  color: #fff;
+}
+&.is-success {
+  background-color: #48c774;
+border-color: transparent;
+color: #fff;
+}
+&.is-small {
+  font-size: 0.75rem;
+}
+    }
+  }
+}
